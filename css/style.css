@@ -1,0 +1,113 @@
+.grid {
+    padding: 0 18px; 
+}
+.form {
+    padding: 0 18px 15px;
+}
+.padre{
+    background-color: blueviolet;
+    display: grid;
+}
+.hijo1{
+    background-color:rgb(184, 148, 178);
+    height: 80px;
+    display: grid;
+    grid-column: 1/6;
+}
+.hijo2{
+    background-color:rgb(143, 95, 206);
+    height: 80px;
+    display: grid;
+    grid-column: 1/4;
+}
+.hijo3{
+    background-color: rgb(101, 89, 112);
+}
+.hijo4{
+    background-color: rgb(128, 116, 139);
+}
+.hijo5{
+    background-color:rgb(216, 163, 163);
+    height: 80px;
+    display: grid;
+    grid-column: 1/2;
+}
+.hijo6{
+    background-color:rgb(160, 141, 206);
+    height: 80px;
+    display: grid;
+    grid-column: 2/6;
+
+}
+.hijo7 {
+    background-color: rgb(188, 202, 180);
+    height: 80px;
+    display: grid;
+    grid-row: 4/6;
+    grid-column: 1/4;
+}
+.hijo8{
+    background-color:rgb(236, 203, 187);
+    display: grid;
+    grid-column: 4/6;
+
+}
+.hijo9{
+    background-color:rgb(190, 163, 194);
+    display: grid;
+    grid-column: 4/6;
+
+}
+
+.contenedor {
+    background-color: rgb(92, 43, 138);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.columna {
+    background-color: rgb(144, 107, 179);
+    margin: 12px;
+    height: 350px;
+}
+
+.columna1 {
+    width: 230px;
+}
+
+.columna2 {
+    width: 550px;
+    padding: 20px;
+}
+
+
+.columna3 {
+    width: 230px;
+}
+.filas{
+    margin: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.fila2{
+    background-color: rgb(74, 93, 134);
+    margin: 15px;
+    margin-top: 25px;
+    height: 130px;
+    flex: 1;
+
+
+}
+.colu2{
+    background-color: rgb(74, 93, 134);
+    margin-top: 25px;
+    margin: 12px;
+    width: 500px;
+    height: 80px;
+}
+
+
+
+
